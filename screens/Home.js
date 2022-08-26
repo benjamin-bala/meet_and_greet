@@ -3,7 +3,7 @@ import { View, Text, SafeAreaView, StyleSheet } from "react-native";
 import Contactsmenu from "../components/Contactsmenu";
 import Header from "../components/Header";
 import MenuButtons from "../components/MenuButtons";
-import Searchbar from "../components/Searchbar";
+import SearchBar from "../components/SearchBar";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
         {/*Header */}
         <Header />
         {/*Searchbar */}
-        <Searchbar />
+        <SearchBar />
         {/*Menu buttons */}
         <MenuButtons />
         {/*Contacts menu */}
